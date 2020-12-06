@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+	width: 85%;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+/* Header Area CSS */
+.header-area{
+	background-color: #3b5998;
+	padding: 10px 0;
+}
+.logo-area{
+	width: 30%;
+	float: left;
+}
+.logo-area img{
+	margin-top: 10px;
+}
+.login-area{
+	width: 70%;
+	overflow: hidden;
+}
+.user-area label, 
+.password-area label{
+	display:block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	font-weight: 400;
+}
+.login-area input{
+	display: block;
+	margin: 5px 0px 5px 0px;
+}
+.password-area a{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#9cb4d8;
+	font-weight: 400;
+}
+.user-area{
+	float: left;
+	margin-right: 15px;
+}
+.password-area{
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+}
+.submit-area{
+	overflow: hidden;
+}
+.login-area form{
+	float: right;
+}
+.submit-area input{
+	margin-top: 19px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	background-color: #4267B2;
+	border: 1px solid #29487D;
+	padding: 4px 5px;
+	
+}
+.submit-area input:hover{
+	background-color: #3B5998;
+}
+
+
+
+/* Main Area CSS */ 
+
+.main-area {
+	background: linear-gradient(#FFF , #D3D8E8);
+}
+.main-left{
+	width: 50%;
+	float: left;
+	margin-right: 10%; 
+	padding: 20px 0;
+}
+.main-left h3{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 29px;
+}
+.main-right{
+	width: 40%;
+	overflow: hidden;
+	padding: 20px 0;
+}
+ 
+.main-right h1{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0;
+}
+ 
+.main-right h4{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1d2129;
+	font-size: 19px;
+	font-weight: 400;
+	margin-top: 4px;
+}
+ 
+.main-right input[type="text"], 
+.main-right input[type="password"]{
+	font-size: 18px;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 10px;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+}
+.main-right input[type="text"]:first-child{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+}
+.main-right input[type="text"]:nth-child(2){
+	width: 48%;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
